@@ -1,0 +1,249 @@
+body{
+
+background-size: cover; 
+background-attachment: fixed;
+border: none;
+}
+#top{
+background-image: url(bg22.jpg);
+background-size: cover; 
+width: 100%;
+height: 80px;
+box-sizing: border-box;
+text-align:left 20px;
+position: fixed;
+top: 0px;
+left: 0px;
+z-index: 100;
+}
+#top a{
+color: white;
+text-decoration: none;
+}
+ul{
+list-style-type: none;
+}
+ul li{
+width: 15%;
+height: 90px;
+float: left;
+margin-right: 60px;
+font-size: 1.1em;
+color: white;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+/*    border: 1px solid white;*/
+}
+.li{
+    padding-top: 30px;
+}
+.sam{
+width: 17%;
+position: relative;
+top: 0px;
+}
+#logo{
+padding-top: 0px;
+width: 100%;
+padding-left: 0px;
+}
+#logo img {
+width: 100%;
+}
+ul li ul{
+width: 210px;
+height: 0px;;
+list-style-type: none;
+/*display: none;*/
+border: 1px solid back;
+box-sizing: border-box;
+text-align: center;
+transition: height 3s;
+position: relative;
+left: -70;
+}
+ul li ul li {
+width: 250px;
+height:0px;
+    display: none;
+float: none;
+padding-top: 20px;
+box-sizing: border-box;
+background: url(menubg.jpg);
+transition: all 0.5s;
+}
+ 
+ul li:hover ul{
+    height: 300px ;
+    display: block;
+    float: inherit;
+}
+ul li:hover ul li {
+    display: block;
+    height: 50px;
+}
+ul li ul li:hover{
+background: url(menubg2.jpg);
+transform: scaleX(1.2);
+}
+#info{
+    padding-top: 100px;
+    width: 60%;
+    float: left;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    box-sizing: border-box; 
+    text-align: center;
+    word-spacing: 0.5em;
+    margin: 2%; 
+}
+#info img{
+    width: 40%;
+    height: 100px;
+    background: url(devicebg.jpg);
+    background-size: cover;
+}
+#s_menu{
+    width: 100%;
+    float: left;
+}
+#s_menu button{
+    margin: 30px;
+    width: 28%;
+    height: 60px;
+    background: url(menubg.jpg);
+    box-sizing: border-box;
+    transition: all 1.5s;
+    padding-left: 10px;
+    background-size: cover;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+#s_menu button:hover{
+    background: url(menubg2.jpg);
+    transform: scale(1.2);
+    background-size: cover;
+}
+#s_menu button:active{
+    background: url(menubg.jpg);
+    background-size: cover;
+    
+}
+#s div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    align-items: center; 
+}
+#s div{
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    float:left;
+    border: 1px solid white;
+    display: none;
+ }
+#s div img{
+    margin: 2%;
+    float: left;
+    width: 400px;
+    height: 530px;
+}
+.title{
+	font-size: 1.2em;
+    text-align: 100px left ;
+    font-weight: bold;
+    margin-left: 4%;
+}
+#introduce{
+	float: left;	
+	width: 100%;
+	height: auto;
+ }
+#introduce img{
+	width: 100%;
+	float: left;
+}
+.kitu{
+    color: black;
+	font-family: Arial, Helvetica, sans-serif;
+     width: 90%;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 1.5em;
+    float: left;
+}
+#bigword{
+    font-size: 2em;
+    float: left;
+    width: 95%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+    color: darkcyan;
+}
+#bot{
+    width: 100%;
+    height: 400px;
+    margin-top: 5%;
+    float: left;    
+}
+.thongtin1{
+    width: 50%;
+    height: auto;
+    font-size: 1.2em;
+ 
+    color: dimgrey;
+    float: left;
+}
+.thongtin2{
+    margin-left: 4%;
+    width: 45%;
+    height: 100%;
+    float: left;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:  bold;
+    font-size: 1.4em;
+}
+.thongtin1 img{
+    width: 10%;
+    height:15%;
+    float: left;
+    margin-right: 4%;
+}
+iframe{
+	width: 90%;
+	margin-left: 4%;
+	
+	height: 550px;
+	border: 0px;
+	
+}
+#gotop{
+	z-index: 100;
+	position: fixed;
+	right: 0;
+	bottom: 50;
+	width: 5%;
+	height: 30px;
+}
+#gotop button{
+	border:0px;
+	background-color: cornflowerblue;
+}
+#gotop img{
+	width: 100%;
+	height: 30px;
+}
+

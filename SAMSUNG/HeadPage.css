@@ -1,0 +1,257 @@
+body{
+
+background-size: cover; 
+background-attachment: fixed;
+border: none;
+}
+#top{
+background-image: url(bg22.jpg);
+background-size: cover; 
+width: 100%;
+height: 80px;
+box-sizing: border-box;
+text-align:left 20px;
+position: fixed;
+top: 0px;
+left: 0px;
+z-index: 100;
+}
+#top a{
+color: white;
+text-decoration: none;
+}
+ul{
+list-style-type: none;
+}
+ul li{
+width: 15%;
+height: 90px;
+float: left;
+margin-right: 60px;
+font-size: 1.1em;
+color: white;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+/*    border: 1px solid white;*/
+}
+.li{
+    padding-top: 30px;
+}
+.sam{
+width: 17%;
+position: relative;
+top: 0px;
+}
+#logo{
+padding-top: 0px;
+width: 100%;
+padding-left: 0px;
+}
+#logo img {
+width: 100%;
+}
+ul li ul{
+width: 210px;
+height: 0px;;
+list-style-type: none;
+/*display: none;*/
+border: 1px solid back;
+box-sizing: border-box;
+text-align: center;
+transition: height 3s;
+position: relative;
+left: -70;
+}
+ul li ul li {
+width: 250px;
+height:0px;
+    display: none;
+float: none;
+padding-top: 20px;
+box-sizing: border-box;
+background: url(menubg.jpg);
+transition: all 0.5s;
+}
+ 
+ul li:hover ul{
+    height: 300px ;
+    display: block;
+    float: inherit;
+}
+ul li:hover ul li {
+    display: block;
+    height: 50px;
+}
+ul li ul li:hover{
+background: url(menubg2.jpg);
+transform: scaleX(1.2);
+}
+/*xong menu*/
+#space{
+ width: 100%;
+height: 60px;
+}
+/*khoang trong*/
+#thietbi{
+    box-sizing: border-box;
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.anh{
+    width: 60%;
+    float: left;
+    height: 700px;
+}
+.anh img{
+    margin: 1%;
+    width: 550px;
+    height: 550px;
+}
+.anh p button{
+    font-size: 6em;
+    border: none;
+    position: relative;
+    bottom:200px;
+    border: none;
+    background: white;
+}
+.info1  {
+    width: 40%;
+    float: left;
+    color: black;
+    background-color: beige;
+}
+.Name{
+    font-weight: bolder;
+    font-size: 1.4em;
+    color: darkcyan;
+}
+.title{
+    color: darkblue;
+    text-align: 100px left ;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 4%;
+}
+.view{
+     background-color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1.4em;
+    border: none;
+}
+#seen1,#seen,#seen2{
+    margin-left: 55%;
+ }
+#unseen{
+    padding-top: 4%;
+    margin-left: 45%;
+ }
+#info2,#info3,#info2,#info4{
+    width: 100%;
+    float: left;
+    height: auto;
+    display: none;
+}
+.kitu{
+    color: black;
+    width: 90%;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 1.5em;
+    float: left;
+}
+#info2,#info3,#info2,#info4 img{
+    width: 100%;
+    margin-left: 0%;
+    float: left;
+}
+#bigword{
+    font-size: 2em;
+    float: left;
+    width: 95%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: darkcyan;
+}
+#info3 span{
+    color: black;
+    text-align: center;
+    font-size: 0.9em;
+}
+ 
+#unseen  .view div span{
+    transform: rotateX(90deg);
+    font-size: 2em;
+
+}
+#seen1 .view div span{
+    transform: rotateX(90deg);
+    font-size: 2em;
+    
+}
+#seen2 .view div span{
+    transform: rotateX(90deg);
+    font-size: 2em;
+    
+}
+#seen .view div span{
+    transform: rotateX(90deg);
+    font-size: 2em;
+}
+.view div{
+    width: 10%;
+    margin: 2%;
+    margin-left:  30px;
+    float: left;
+    position:  relative;
+    left: -10 ;
+    bottom: 20;
+    transition: all 0.5s;
+
+}
+.view:hover div{
+        transform: rotate(450deg);
+}
+#bot{
+    width: 100%;
+    height: 400px;
+    margin-top: 5%;
+    float: left;    
+}
+.thongtin1{
+    width: 50%;
+    height: auto;
+    font-size: 1.2em;
+ 
+    color: dimgrey;
+    float: left;
+}
+.thongtin2{
+    margin-left: 4%;
+    width: 45%;
+    height: 100%;
+    float: left;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:  bold;
+    font-size: 1.4em;
+}
+.thongtin1 img{
+    width: 10%;
+    height:15%;
+    float: left;
+    margin-right: 4%;
+}
+
